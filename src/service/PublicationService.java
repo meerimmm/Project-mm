@@ -19,6 +19,11 @@ public class PublicationService {
 
     }
 
+    // TODO: 14.04.2023 Добавить возможность поставить лайк к публикации!!!
+    public void addLikeToPublication(int publicationId, int like){
+        
+    }
+
     public DataBase getDataBase() {
         return dataBase;
     }
