@@ -27,6 +27,11 @@ public class Main {
         publicationService.create(publication);
         publicationService.updateDescription(1, "Here I'm changing the description!!!");
 
-
+        System.out.println(publication);
+        System.out.println(publicationService);
+        System.out.println(message);
+        System.out.println(messageService);
+        System.out.println(user);
+        System.out.println(userService);
     }
 }

@@ -10,10 +10,6 @@ public class Message {
     private String createDate;
     private String message;
     private boolean isRead;
-
-    public Message() {
-    }
-
     public Message(int id, String createDate, String message, boolean isRead,  User user) {
         this.id = id;
         this.createDate = createDate;
@@ -21,47 +17,6 @@ public class Message {
         this.isRead = isRead;
         this.user = user;
     }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getCreateDate() {
-        return createDate;
-    }
-
-    public void setCreateDate(String createDate) {
-        this.createDate = createDate;
-    }
-
-    public String getMessage() {
-        return message;
-    }
-
-    public void setMessage(String message) {
-        this.message = message;
-    }
-
-    public boolean isRead() {
-        return isRead;
-    }
-
-    public void setRead(boolean read) {
-        isRead = read;
-    }
-
-    public User getUser() {
-        return user;
-    }
-
-    public void setUser(User user) {
-        this.user = user;
-    }
-
     @Override
     public String toString() {
         return "Message{" +

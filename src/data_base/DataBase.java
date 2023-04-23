@@ -12,7 +12,6 @@ public class DataBase {
     private User[] users = new User[100];
     private Message[] messages = new Message[100];
     private Publication[] publications = new Publication[100];
-
     public User[] getUsers() {
         return users;
     }
@@ -23,4 +22,6 @@ public class DataBase {
     public Publication[] getPublications() {
         return publications;
     }
-}
+
+    }
+

@@ -61,7 +61,9 @@ public class Publication {
     public void setDescription(String description) {
         this.description = description;
     }
+    public void setPublicationId(int publicationId) {
 
+    }
     @Override
     public String toString() {
         return "Publication{" +
